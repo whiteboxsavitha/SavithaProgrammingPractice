@@ -1,0 +1,3 @@
+Java didn’t comes with any ready make file copy function, you have to manual create the file copy process. To copy file, just convert the file into a bytes stream with FileInputStream and write the bytes into another file with FileOutputStream.
+The overall processes are quite simple, just do not understand why Java doesn’t include this method into the java.io.File class.
+
