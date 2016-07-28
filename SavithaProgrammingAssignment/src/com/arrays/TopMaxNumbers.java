@@ -18,7 +18,7 @@ public class TopMaxNumbers {
 	     
 	    public static void main(String a[]){
 	        int num[] = {5,34,78,2,45,1,99,23};
-	        TwoMaxNumbers tmn = new TwoMaxNumbers();
+	        TopMaxNumbers tmn = new TopMaxNumbers();
 	        tmn.printTwoMaxNumbers(num);
 	    }
 	    }

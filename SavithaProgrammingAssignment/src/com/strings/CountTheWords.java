@@ -16,9 +16,6 @@ class CountTheWords
 			{
 				if(p[i] == p[j] && i != j)
 					map.put(p[i], i);
-					
-					
-				
 			}
 	   		
 		}

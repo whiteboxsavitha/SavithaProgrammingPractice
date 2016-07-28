@@ -3,16 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="com.test.NullpointerTest"/>
+      <class name="com.test.ColSecondTest"/>
     </classes>
   </test> <!-- Default test -->
   <test name="Default test(failed)">
     <classes>
-      <class name="com.test.NullpointerTest">
+      <class name="com.test.ColSecondTest">
         <methods>
-          <include name="Nullpointerpos"/>
+          <include name="checkWordUpdate"/>
         </methods>
-      </class> <!-- com.test.NullpointerTest -->
+      </class> <!-- com.test.ColSecondTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
